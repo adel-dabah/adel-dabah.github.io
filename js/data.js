@@ -125,14 +125,14 @@ const EXPERIENCE = {
   // dot: "current" | "past" | "degree"
   items: [
     {
-      year:  "2024–Now",
+      year:  "2023–Now",
       title: "Research Scientist — ATML Accelerating Devices",
       where: "Forschungszentrum Jülich (JSC), Germany",
       desc:  "HPC scientific applications on next-generation supercomputing architectures, including the JUPITER exascale system.",
       dot:   "current",
     },
     {
-      year:  "2019–2024",
+      year:  "2021–2023",
       title: "Postdoctoral Fellow",
       where: "KAUST — CTL & ECRC, Saudi Arabia",
       desc:  "GPU-accelerated MIMO detection with Prof. Slim Alouini and Prof. David Keyes.",
@@ -147,9 +147,9 @@ const EXPERIENCE = {
     },
     {
       year:  "2014–2018",
-      title: "Research Assistant & PhD Candidate",
-      where: "CERIST + LAAS-CNRS, Toulouse, France",
-      desc:  "Parallel B&B and metaheuristics for scheduling; multiple internships at LAAS-CNRS.",
+      title: "Research Assistant & PhD Candidate USTHB",
+      where: "CERIST + LAAS-CNRS, USTHB Algeria",
+      desc:  "Parallel B&B and metaheuristics for scheduling; ",
       dot:   "past",
     },
     {
@@ -187,15 +187,7 @@ const EXPERIENCE = {
  */
 const BLOG = {
   enabled: true,
-  items: [
-    {
-      date:    "Coming soon",
-      topic:   "HPC",
-      color:   "blue",
-      title:   "Why GPU Memory Bandwidth Is the Real Bottleneck in MIMO Detection",
-      excerpt: "A deep dive into memory access patterns that limit throughput in large-scale MIMO decoders — and how we address them with low-precision arithmetic.",
-      url:     "#",
-    },
+
     { placeholder: true },
   ],
 };
@@ -205,9 +197,6 @@ const CONTACT = {
   enabled: true,
   items: [
     { icon: "🎓", label: "Scholar",      url: "https://scholar.google.com/citations?user=xGZCJkoAAAAJ&hl=en"    },
-    { icon: "📚", label: "DBLP",         url: "https://dblp.org/pid/183/8496.html"                               },
-    { icon: "🔬", label: "ResearchGate", url: "https://www.researchgate.net/profile/Adel-Dabah-2"                },
-    { icon: "📊", label: "Scopus",       url: "https://www.scopus.com/authid/detail.uri?authorId=57191586185"    },
     { icon: "💼", label: "LinkedIn",     url: "https://www.linkedin.com/in/adel-dabah-753939a6/"                 },
     { icon: "⚡", label: "JSC Jülich",   url: "https://www.fz-juelich.de/profile/dabah_a"                       },
     { icon: "🏫", label: "KAUST (prev)", url: "https://cemse.kaust.edu.sa/profiles/adel-dabah"                   },
