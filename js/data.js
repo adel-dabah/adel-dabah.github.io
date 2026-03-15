@@ -37,8 +37,7 @@ const STATS = {
   enabled: true,
   items: [
     { number: "21+",   label: "Publications" },
-    { number: "138+",  label: "Citations"    },
-    { number: "1,907", label: "Reads"        },
+    { number: "209+",  label: "Citations"    },
     { number: "10+",   label: "Yrs Research" },
   ],
 };
@@ -186,10 +185,10 @@ const EXPERIENCE = {
  * Set placeholder:true to render a dashed "coming soon" card.
  */
 const BLOG = {
-  enabled: false,
-
+  enabled: true,
+    items: [
     { placeholder: true },
-  ],
+    ],
 };
 
 /* ── CONTACT LINKS ───────────────────────────────────────── */
