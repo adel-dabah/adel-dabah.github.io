@@ -29,8 +29,6 @@ const PROFILE = {
   buttons: [
     { label: "Google Scholar", url: "https://scholar.google.com/citations?user=xGZCJkoAAAAJ&hl=en", type: "solid"   },
     { label: "LinkedIn",       url: "https://www.linkedin.com/in/adel-dabah-753939a6/",              type: "outline" },
-    { label: "DBLP",           url: "https://dblp.org/pid/183/8496.html",                            type: "outline" },
-    { label: "ResearchGate",   url: "https://www.researchgate.net/profile/Adel-Dabah-2",             type: "outline" },
   ],
 };
 
@@ -62,9 +60,7 @@ const INTERESTS = {
     { label: "Graph Edit Distance",         color: "green" },
   ],
   // Set to null to hide
-  quote: `"KAUST is the best place to challenge myself and improve my skills.
-           HPC for Communication is the key technology for next-generation
-           communication networks."`,
+  quote: `"Designing GPU-accelerated algorithms for optimization, AI, and decision-making at scale."`,
 };
 
 /* ── PUBLICATIONS ────────────────────────────────────────── */
@@ -198,22 +194,6 @@ const BLOG = {
       color:   "blue",
       title:   "Why GPU Memory Bandwidth Is the Real Bottleneck in MIMO Detection",
       excerpt: "A deep dive into memory access patterns that limit throughput in large-scale MIMO decoders — and how we address them with low-precision arithmetic.",
-      url:     "#",
-    },
-    {
-      date:    "Coming soon",
-      topic:   "Optimization",
-      color:   "green",
-      title:   "Tabu Search vs. Genetic Algorithms for the Blocking Job Shop Problem",
-      excerpt: "A practical comparison of two classic metaheuristics on the blocking variant of JSS, with benchmarks on standard instances.",
-      url:     "#",
-    },
-    {
-      date:    "Coming soon",
-      topic:   "Career",
-      color:   "gold",
-      title:   "From Algeria to KAUST to Jülich: A Research Journey in HPC",
-      excerpt: "Reflections on navigating international research environments and building expertise across three continents.",
       url:     "#",
     },
     { placeholder: true },
