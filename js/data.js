@@ -186,7 +186,7 @@ const EXPERIENCE = {
  * Set placeholder:true to render a dashed "coming soon" card.
  */
 const BLOG = {
-  enabled: true,
+  enabled: false,
 
     { placeholder: true },
   ],
